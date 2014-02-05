@@ -1,26 +1,28 @@
-## Developer İsmail AKBUDAK & Vasfi TATAROGLU
+## Developer İsmail AKBUDAK 
 
 Layered Architecture Project
 
 ## License
 
 Copyright (c) 2013-2014 Ismail AKBUDAK
-Licensed under the [MIT license](https://github.com/ismailakbudak/web-house/blob/master/MIT-LICENSE.txt).
+Licensed under the [MIT license](https://github.com/ismailakbudak/layered-architecture/blob/master/MIT-LICENSE.txt).
 
 ## Development 
  Layered Architecture with Entity Framework. Programming language is C#. ASP.NET web application..
 
-
+## Requirements
 Our database scripts is webhouse.sql
 Database name WEBHOUSE
 Environment: Visual Studio 2012
-------------------------------------------------------------------------------+
+
+## Settings
+
 You have to change DataAccessLibrary Database property
 Delete these files on DataAccessLibrary : 
 WEBHOUSEModel.edmx
 packages.config
 App.Config
-------------------------------------------------------------------------------+
+
 After delete right click on DataAccessLibrary project
 Add -> New Item -> Data -> ADO.NET Entity Data Model
 change model name following
