@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="09a577e44fd943d4b3e1914157133973" Name="Diagram1">
+        <EntityTypeShape EntityType="WEBHOUSEModel.CATEGORY" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.COMMENTS" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.IMAGE" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.SITE" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.SUB_CATEGORY" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.USER_GROUPS" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.USERS" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="WEBHOUSEModel.VOTE" Width="1.5" PointX="5.25" PointY="7" IsExpanded="true" />
+        <AssociationConnector Association="WEBHOUSEModel.FK_COMMENTS_SITE" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBHOUSEModel.FK_IMAGE_SITE" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBHOUSEModel.FK_SITE_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="WEBHOUSEModel.FK_VOTE_SITE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
